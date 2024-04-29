@@ -2,7 +2,7 @@ import Link from "next/link";
 import Navbar from "@/components/navbar";
 import Balancer from "react-wrap-balancer";
 
-export default function Introduction() {
+export default function Arrays() {
   return (
     <div className="min-h-screen w-full">
       <Navbar />
@@ -11,16 +11,16 @@ export default function Introduction() {
         <div className=" flex flex-col items-center  gap-6 pt-2 text-center md:w-1/2 md:items-start md:gap-10 md:pt-32 md:text-left">
           <Balancer>
             <h1 className="text-xl font-semibold md:text-4xl">
-              1. Introduction
+              2. TypeScript Arrays
             </h1>
-            <br></br>
-            <h2 className="text-xl md:text-2xl">What is TypeScript?</h2>
-           
+            <br></br>           
             <p className="text-xl text-neutral-400 md:text-xl">
-            TypeScript stands in an unusual relationship to JavaScript. ypeScript is JavaScript with added syntax for types. 
-            TypeScript offers all of JavaScript’s features, and an additional layer on top of these: TypeScript’s type system.
-            TypeScript allows specifying the types of data being passed around within the code, and has the ability to report errors when the types don't match.<br></br>
-            For example, TypeScript will report an error when passing a string into a function that expects a number. JavaScript will not.
+            TypeScript has a specific syntax for typing arrays.
+            The readonly keyword can prevent arrays from being changed.TypeScript can infer the type of an array if it has values.<br></br>
+            There are two types of an array in TypeScript:<br></br>
+
+            1. Single-Dimensional Array : A single-dimensional array is a type of linear array, which contains only one row for storing data. It has a single set of the square bracket ("[]"). We can access its elements either using row or column index.<br></br>
+            2. Multi-Dimensional Array : A multi-dimensional array is an array which contains one or more arrays. In the multi-dimensional array, data is stored in a row and column-based index (also known as matrix form). A two-dimensional array (2-D array) is the simplest form of a multi-dimensional array.<br></br>
             </p>
           </Balancer>
           
@@ -28,7 +28,10 @@ export default function Introduction() {
           < Link href= "/"  className="border-black w-fit rounded-xl border-2 bg-black px-4 py-2 text-white transition-all hover:border-black hover:bg-black hover:bg-transparent hover:text-black/90 mr-4">
              Home
             </Link>
-            <Link href="/typescript/arrays" className="border-black w-fit rounded-xl border-2 bg-black px-4 py-2 text-white transition-all hover:border-black hover:bg-black hover:bg-transparent hover:text-black/90">
+            <Link href="/typescript/introduction" className="border-black w-fit rounded-xl border-2 bg-black px-4 py-2 text-white transition-all hover:border-black hover:bg-black hover:bg-transparent hover:text-black/90 mr-4">
+              Previous Page
+            </Link>
+            <Link href="/typescript/tuples" className="border-black w-fit rounded-xl border-2 bg-black px-4 py-2 text-white transition-all hover:border-black hover:bg-black hover:bg-transparent hover:text-black/90">
               Next Page
             </Link>
           </div>
@@ -40,8 +43,8 @@ export default function Introduction() {
               <iframe 
                 width="100%" 
                 height="400" 
-                src="https://www.youtube.com/embed/MOO5vrtTUTE?"
-                title="TypeScript Introduction" 
+                src="https://www.youtube.com/embed/Bh79UBu-hRg" 
+                title="TypeScript Arrays" 
                 frameBorder="10" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                 allowFullScreen
