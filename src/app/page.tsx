@@ -1,7 +1,7 @@
 import Navbar from "@/components/navbar";
 import Image from "next/image";
 import Balancer from "react-wrap-balancer";
-import code from "@/assets/images/code.jpg"
+import code from "@/assets/images/code.jpg";
 
 export default function Home() {
 
@@ -13,7 +13,7 @@ export default function Home() {
         <div className=" flex flex-col items-center  gap-6 pt-8 text-center md:w-1/2 md:items-start md:gap-10 md:pt-32 md:text-left">
           <Balancer>
             <h1 className="text-4xl font-semibold md:text-6xl">
-              Coding for Fun
+              Coding is Fun
             </h1>
           </Balancer>
           <Balancer>
@@ -41,7 +41,7 @@ export default function Home() {
       </section>
       {/* Footer */}
       <footer className="text-center py-4 bg-gray-200 mt-20">
-        <p className="text-gray-600">@2024 All right reserved</p>
+        <p className="text-gray-600">@2024 All rights reserved</p>
       </footer>
 
     </div>
