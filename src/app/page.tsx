@@ -1,5 +1,3 @@
-
-
 import Navbar from "@/components/navbar";
 import Image from "next/image";
 import Balancer from "react-wrap-balancer";
