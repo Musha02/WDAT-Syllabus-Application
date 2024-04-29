@@ -23,7 +23,6 @@ export default function Testing() {
             - Component testing is a more focused version of unit testing where the primary subject of the tests is React components. This may involve testing how components are rendered, their interaction with props, and their behavior in response to user events.<br></br>
             - Integration testing involves testing how multiple units work together. This can be a combination of components, hooks, and functions.<br></br>
             - End-to-End (E2E) Testing involves testing user flows in an environment that simulates real user scenarios, like the browser. This means testing specific tasks (e.g. signup flow) in a production-like environment.<br></br>
-            - Snapshot testing involves capturing the rendered output of a component and saving it to a snapshot file. When tests run, the current rendered output of the component is compared against the saved snapshot. Changes in the snapshot are used to indicate unexpected changes in behavior.<br></br>
             </p>
           </Balancer>
           
@@ -33,9 +32,6 @@ export default function Testing() {
             </Link>
             <Link href="/nextjs/optimizing" className="border-black w-fit rounded-xl border-2 bg-black px-4 py-2 text-white transition-all hover:border-black hover:bg-black hover:bg-transparent hover:text-black/90 mr-4">
               Previous Page
-            </Link>
-            <Link href="/nextjs/not-found-page" className="border-black w-fit rounded-xl border-2 bg-black px-4 py-2 text-white transition-all hover:border-black hover:bg-black hover:bg-transparent hover:text-black/90">
-              Next Page
             </Link>
           </div>
           
