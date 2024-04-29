@@ -7,12 +7,6 @@ import { useState } from "react";
 import Mylogo from "@/assets/images/Mylogo.png";
 import Link from "next/link";
 import { IoIosArrowDown } from "react-icons/io";
-
-import todoImage from "@/assets/images/icon-todo.svg";
-import calendarImage from "@/assets/images/icon-calendar.svg";
-import remindersImage from "@/assets/images/icon-reminders.svg";
-import planningImage from "@/assets/images/icon-planning.svg";
-
 import { FiMenu } from "react-icons/fi";
 import { AiOutlineClose } from "react-icons/ai";
 import { useAutoAnimate } from "@formkit/auto-animate/react";
@@ -27,12 +21,12 @@ type NavItem = {
 const navItems: NavItem[] = [
   {
     label: "Web",
-    link: "#",
+    link: "/web",
     children: [
       {
         label: "NextJs 14",
         link: "/nextjs",
-       // iconImage: todoImage
+       // iconImage: Image
       },
       {
         label: "TypeScript",
@@ -102,7 +96,7 @@ export default function Navbar() {
   }
 
   return (
-    <div className="mx-auto flex  w-full max-w-7xl justify-between px-4 py-5 text-sm">
+    <div className="mx-auto flex  w-full max-w-7xl text-xl justify-between px-4 py-5 text-sm">
       {/* left side  */}
       <section ref={animationParent} className="flex items-center gap-10">
         {/* logo */}
@@ -151,11 +145,11 @@ export default function Navbar() {
 
       {/* right side data */}
       <section className=" hidden md:flex   items-center gap-8 ">
-        <button className="h-fit text-neutral-400 transition-all hover:text-black/90">
+        <button className="h-fit text-neutral-400 text-xl transition-all hover:text-black/90">
           Login
         </button>
 
-        <button className="h-fit rounded-xl border-2 border-neutral-400 px-4 py-2 text-neutral-400 transition-all hover:border-black hover:text-black/90">
+        <button className="h-fit rounded-xl text-xl border-2 border-neutral-400 px-4 py-2 text-neutral-400 transition-all hover:border-black hover:text-black/90">
           Register
         </button>
       </section>

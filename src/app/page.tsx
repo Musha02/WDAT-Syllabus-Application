@@ -19,16 +19,12 @@ export default function Home() {
             </h1>
           </Balancer>
           <Balancer>
-            <p className=" text-neutral-400 md:max-w-[700px]">
-              Welcome to the Syllabus Application. It will provide knowledge in Web, Server and Mobile Applications
+            <p className=" text-neutral-400 md:max-w-[700px]  md:text-xl">
+              Welcome to the Syllabus Application. You will get a knowledge in Web, Server and Mobile Applications. 
+              This syllabus will be an essential tool for helping to ensure a smoother transition and a more structured learning experience.
             </p>
           </Balancer>
-          <button className="border-balck  w-fit rounded-xl border-2 bg-black px-4 py-2  text-white transition-all hover:border-black hover:bg-black hover:bg-transparent  hover:text-black/90">
-            Learn more
-          </button>
-          <div className="flex gap-2 md:gap-6">
-            
-          </div>
+          
         </div>
 
         {/* right div */}
