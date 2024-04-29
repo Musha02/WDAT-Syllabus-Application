@@ -38,9 +38,27 @@ export default function DataFetching() {
             </Link>
           </div>
           
+        </div>
+        <section className="md:w-1/2 mt-20">
+          <div className=" w-full h-auto px-10 mt-20">
+            <div className="mt-10" >
+              <iframe 
+                width="100%" 
+                height="400" 
+                src="https://www.youtube.com/embed/uR67O6sNjbg?" 
+                title="Data Fetching" 
+                frameBorder="10" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowFullScreen
+                style={{ borderRadius: '30px' }}
+                ></iframe>
+            </div>
           </div>
         </section>
-      </div>
+
+
+      </section>
+    </div>
     
 
   );

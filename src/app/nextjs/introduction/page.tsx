@@ -1,10 +1,7 @@
 import Link from "next/link";
 import Navbar from "@/components/navbar";
 import Balancer from "react-wrap-balancer";
-import Image from "next/image";
-import Image1 from "@/assets/images/image1.png";
 
-import code from "@/assets/images/code.jpg"
 
 
 export default function Introduction() {
@@ -39,18 +36,23 @@ export default function Introduction() {
           
           </div>
 
-          <section className="md:w-1/2  ">
-          <Image
-            className="hidden h-auto max-w-[600px]  md:block mt-[100px]"
-            src={code}
-            alt="code-image"
-          />
-          <Image
-            className="h-auto w-full  md:hidden"
-            src={code}
-            alt="code-image"
-          />
-        </section>
+          <section className="md:w-1/2 mt-20">
+          <div className=" w-full h-auto px-10 mt-20">
+            <div className="mt-10" >
+              <iframe 
+                width="100%" 
+                height="400" 
+                src="https://www.youtube.com/embed/ZjAqacIC_3c?list=PLC3y8-rFHvwjOKd6gdf4QtV1uYNiQnruI"
+                title="Next.Js Introduction" 
+                frameBorder="10" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowFullScreen
+                style={{ borderRadius: '30px' }}
+                ></iframe>
+            </div>
+          </div>
+         </section>
+        
         </section>
       </div>
 

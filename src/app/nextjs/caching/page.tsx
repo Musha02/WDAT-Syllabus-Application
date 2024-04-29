@@ -24,6 +24,7 @@ export default function Caching() {
             </p>
           </Balancer>
           
+
           <div className="flex justify-center mt-4">
             <Link href="/" className="border-black w-fit rounded-xl border-2 bg-black px-4 py-2 text-white transition-all hover:border-black hover:bg-black hover:bg-transparent hover:text-black/90 mr-4">
               Home
@@ -36,9 +37,25 @@ export default function Caching() {
             </Link>
           </div>
           
+        </div>
+        <section className="md:w-1/2 mt-20">
+          <div className=" w-full h-auto px-10 mt-20">
+            <div className="mt-10" >
+              <iframe 
+                width="100%" 
+                height="400" 
+                src="https://www.youtube.com/embed/XBbXciVXWlQ"
+                title="Caching" 
+                frameBorder="10" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowFullScreen
+                style={{ borderRadius: '30px' }}
+                ></iframe>
+            </div>
           </div>
-        </section>
-      </div>
+         </section>
+      </section>
+    </div>
     
 
   );

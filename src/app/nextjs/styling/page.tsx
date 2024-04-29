@@ -17,11 +17,11 @@ export default function Styling() {
             <p className="text-xl text-neutral-400 md:text-xl">
             Next.js supports different ways of styling your application, <br></br>including:<br></br>
 
-            -Global CSS: Simple to use and familiar for those experienced with traditional CSS, but can lead to larger CSS bundles and difficulty managing styles as the application grows.<br></br>
-            -CSS Modules: Create locally scoped CSS classes to avoid naming conflicts and improve maintainability.<br></br>
-            -Tailwind CSS: A utility-first CSS framework that allows for rapid custom designs by composing utility classes.<br></br>
-            -Sass: A popular CSS preprocessor that extends CSS with features like variables, nested rules, and mixins.<br></br>
-            -CSS-in-JS: Embed CSS directly in your JavaScript components, enabling dynamic and scoped styling.<br></br><br></br>
+            - Global CSS: Simple to use and familiar for those experienced with traditional CSS, but can lead to larger CSS bundles and difficulty managing styles as the application grows.<br></br>
+            - CSS Modules: Create locally scoped CSS classes to avoid naming conflicts and improve maintainability.<br></br>
+            - Tailwind CSS: A utility-first CSS framework that allows for rapid custom designs by composing utility classes.<br></br>
+            - Sass: A popular CSS preprocessor that extends CSS with features like variables, nested rules, and mixins.<br></br>
+            - CSS-in-JS: Embed CSS directly in your JavaScript components, enabling dynamic and scoped styling.<br></br><br></br>
             Tailwind CSS is a utility-first CSS framework that works exceptionally well with Next.js.
             </p>
           </Balancer>
@@ -38,8 +38,24 @@ export default function Styling() {
             </Link>
           </div>
           
+        </div>
+        <section className="md:w-1/2 mt-20">
+          <div className=" w-full h-auto px-10 mt-20">
+            <div className="mt-10" >
+              <iframe 
+                width="100%" 
+                height="400" 
+                src="https://www.youtube.com/embed/qKwnlTVAGnA"
+                title="Styling in Next.Js"  
+                frameBorder="10" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowFullScreen
+                style={{ borderRadius: '30px' }}
+                ></iframe>
+            </div>
           </div>
         </section>
+      </section>
       </div>
     
 
