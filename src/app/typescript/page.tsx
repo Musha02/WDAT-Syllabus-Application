@@ -16,9 +16,12 @@ export default function NextJs() {
           </Balancer>
           <Balancer>
             <h2 className=" text-neutral-400 md:max-w-[700px] md:text-2xl hover:text-black/90">1. <Link href="/typescript/introduction">Introduction</Link></h2>
-            <h2 className=" text-neutral-400 md:max-w-[700px] md:text-2xl hover:text-black/90">2. <Link href="/typescript/introduction">Typescript Documentation</Link></h2>
-            <h2 className=" text-neutral-400 md:max-w-[700px] md:text-2xl hover:text-black/90">3. <Link href="/typescript/introduction">Rewriting javascript code to typescript</Link></h2>
-            <h2 className=" text-neutral-400 md:max-w-[700px] md:text-2xl hover:text-black/90">4. <Link href="/typescript/introduction">React with Typescript</Link></h2>
+            <h2 className=" text-neutral-400 md:max-w-[700px] md:text-2xl hover:text-black/90">2. <Link href="/typescript/arrays">Typescript Arrays</Link></h2>
+            <h2 className=" text-neutral-400 md:max-w-[700px] md:text-2xl hover:text-black/90">3. <Link href="/typescript/tuples">Typescript Tuples</Link></h2>
+            <h2 className=" text-neutral-400 md:max-w-[700px] md:text-2xl hover:text-black/90">4. <Link href="/typescript/inheritance">Typescript Inheritance </Link></h2>
+            <h2 className=" text-neutral-400 md:max-w-[700px] md:text-2xl hover:text-black/90">5. <Link href="/typescript/classes">Typescript Classes</Link></h2>
+            <h2 className=" text-neutral-400 md:max-w-[700px] md:text-2xl hover:text-black/90">6. <Link href="/typescript/functions">Typescript Functions</Link></h2>    
+            <h2 className=" text-neutral-400 md:max-w-[700px] md:text-2xl hover:text-black/90">7. <Link href="/typescript/react-with-ts">React with Typescript</Link></h2>
             </Balancer>
             <Link href="/" className="border-balck  w-fit rounded-xl border-2 bg-black px-4 py-2  text-white transition-all hover:border-black hover:bg-black hover:bg-transparent  hover:text-black/90">
               Home
