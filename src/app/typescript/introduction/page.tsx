@@ -17,10 +17,8 @@ export default function Introduction() {
             <h2 className="text-xl md:text-2xl">What is TypeScript?</h2>
            
             <p className="text-xl text-neutral-400 md:text-xl">
-            TypeScript stands in an unusual relationship to JavaScript. ypeScript is JavaScript with added syntax for types. 
-            TypeScript offers all of JavaScript’s features, and an additional layer on top of these: TypeScript’s type system.
-            TypeScript allows specifying the types of data being passed around within the code, and has the ability to report errors when the types don't match.<br></br>
-            For example, TypeScript will report an error when passing a string into a function that expects a number. JavaScript will not.
+            TypeScript is an open-source pure object-oriented programing language. It is a strongly typed superset of JavaScript which compiles to plain JavaScript. It contains all elements of the JavaScript. It is a language designed for large-scale JavaScript application development, which can be executed on any browser, any Host, and any Operating System. The TypeScript is a language as well as a set of tools. TypeScript is the ES6 version of JavaScript with some additional features.
+            TypeScript cannot run directly on the browser. It needs a compiler to compile the file and generate it in JavaScript file, which can run directly on the browser. The TypeScript source file is in ".ts" extension.
             </p>
           </Balancer>
           
