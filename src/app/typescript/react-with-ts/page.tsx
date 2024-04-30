@@ -16,7 +16,7 @@ export default function ReactWithTS() {
             <br></br>
            
             <p className="text-xl text-neutral-400 md:text-xl">
-            React with TypeScript combines the power of React's declarative UI framework with the type safety and scalability of TypeScript. TypeScript adds static typing to JavaScript, catching errors early in development and enhancing code readability and maintainability. By using TypeScript with React, developers can enjoy features such as type inference, interfaces, and generics, enabling robust development workflows and better collaboration in larger teams. This combination helps to create more reliable, maintainable, and scalable React applications.
+            React with TypeScript combines the power of React&#39;s declarative UI framework with the type safety and scalability of TypeScript. TypeScript adds static typing to JavaScript, catching errors early in development and enhancing code readability and maintainability. By using TypeScript with React, developers can enjoy features such as type inference, interfaces, and generics, enabling robust development workflows and better collaboration in larger teams. This combination helps to create more reliable, maintainable, and scalable React applications.
             </p>
           </Balancer>
           

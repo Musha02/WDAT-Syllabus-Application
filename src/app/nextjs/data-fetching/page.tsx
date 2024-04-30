@@ -21,7 +21,7 @@ export default function DataFetching() {
             2. On the server, with third-party libraries <br></br>
             3. On the client, via a Route Handler <br></br>
             4. On the client, with third-party libraries. <br></br><br></br>
-            Caching Data : Caching stores data so it doesn't need to be re-fetched from your data source on every request. <br></br>
+            Caching Data : Caching stores data so it doesn&#39;t need to be re-fetched from your data source on every request. <br></br>
             By default, Next.js automatically caches the returned values of fetch in the Data Cache on the server. This means that the data can be fetched at build time or request time, cached, and reused on each data request.
             </p>
           </Balancer>

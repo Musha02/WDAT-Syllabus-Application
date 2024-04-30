@@ -15,7 +15,7 @@ export default function Caching() {
             </h1>
             <br></br>           
             <p className="text-xl text-neutral-400 md:text-xl">
-            Next.js improves your application's performance and reduces costs by caching rendering work and data requests. 
+            Next.js improves your application&#39;s performance and reduces costs by caching rendering work and data requests. 
             This page provides an in-depth look at Next.js caching mechanisms, the APIs you can use to configure them, and how they interact with each other.<br></br>
             By default, Next.js will cache as much as possible to improve performance and reduce cost. This means routes are statically rendered and data requests are cached unless you opt out.<br></br><br></br>
             Next.js has a built-in Data Cache that persists the result of data fetches across incoming server requests and deployments. 

@@ -18,7 +18,7 @@ export default function ProjectStructure() {
             <p className="text-xl text-neutral-400 md:text-xl">
             This page provides an overview of the project structure of a Next.js application. 
             It covers top-level files and folders, configuration files, and routing conventions within the app and pages directories.<br></br>
-            Top-level folders are used to organize your application's code and static assets.<br></br>
+            Top-level folders are used to organize your application&#39;s code and static assets.<br></br>
             - app, pages, public, src <br></br>
             Top-level files are used to configure your application, manage dependencies, run middleware, integrate monitoring tools, and define environment variables.<br></br>
             - next.config.js, package.json, .env, tsconfig.json <br></br>

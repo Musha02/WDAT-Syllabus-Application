@@ -16,7 +16,7 @@ export default function Optimizing() {
             <br></br>
 
             <p className="text-xl text-neutral-400 md:text-xl">
-              Next.js comes with a variety of built-in optimizations designed to improve your application's speed and Core Web Vitals. 
+              Next.js comes with a variety of built-in optimizations designed to improve your application&#39;s speed and Core Web Vitals. 
               This guide will cover the optimizations you can leverage to enhance your user experience.
               Built-in components abstract away the complexity of implementing common UI optimizations. These components are:<br></br>
 

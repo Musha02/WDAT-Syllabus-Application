@@ -20,7 +20,7 @@ export default function Rendering() {
             This section will help you understand the differences between these rendering environments, strategies, and runtimes. <br></br><br></br>
             Rendering Environments: 
             There are two environments where web applications can be rendered: the client and the server.<br></br>
-            -The client refers to the browser onser' device that sendsequet toerve for your application code. It then turns the response from the server intoser nterface.<br></br>
+            -The client refers to the browser onser&#39; device that sendsequet toerve for your application code. It then turns the response from the server intoser nterface.<br></br>
             -The server refers to the computer inata enter that stores your application code, receives requests fromlien, and sends back an appropriate response.
             </p>
           </Balancer>

@@ -16,7 +16,7 @@ export default function Inheritance() {
             <br></br>           
             <p className="text-xl text-neutral-400 md:text-xl">
             Inheritance is an aspect of OOPs languages, which provides the ability of a program to create a new class from an existing class. It is a mechanism which acquires the properties and behaviors of a class from another class. The class whose members are inherited is called the base class, and the class that inherits those members is called the derived/child/subclass. In child class, we can override or modify the behaviors of its parent class.
-            Before ES6, JavaScript uses functions and prototype-based inheritance, but TypeScript supports the class-based inheritance which comes from ES6 version. The TypeScript uses class inheritance through the extends keyword. TypeScript supports only single inheritance and multilevel inheritance. It doesn't support multiple and hybrid inheritance.<br></br><br></br>
+            Before ES6, JavaScript uses functions and prototype-based inheritance, but TypeScript supports the class-based inheritance which comes from ES6 version. The TypeScript uses class inheritance through the extends keyword. TypeScript supports only single inheritance and multilevel inheritance. It doesn&#39;t support multiple and hybrid inheritance.<br></br><br></br>
             Why use inheritance?<br></br>
             - We can use it for Method Overriding (so runtime polymorphism can be achieved). <br></br>
             - We can use it for Code Reusability.

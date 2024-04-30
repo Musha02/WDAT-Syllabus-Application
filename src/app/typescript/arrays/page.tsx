@@ -19,7 +19,7 @@ export default function Arrays() {
             The readonly keyword can prevent arrays from being changed.TypeScript can infer the type of an array if it has values.<br></br>
             There are two types of an array in TypeScript:<br></br>
 
-            1. Single-Dimensional Array : A single-dimensional array is a type of linear array, which contains only one row for storing data. It has a single set of the square bracket ("[]"). We can access its elements either using row or column index.<br></br>
+            1. Single-Dimensional Array : A single-dimensional array is a type of linear array, which contains only one row for storing data. It has a single set of the square bracket (&#39;[]&#39;). We can access its elements either using row or column index.<br></br>
             2. Multi-Dimensional Array : A multi-dimensional array is an array which contains one or more arrays. In the multi-dimensional array, data is stored in a row and column-based index (also known as matrix form). A two-dimensional array (2-D array) is the simplest form of a multi-dimensional array.<br></br>
             </p>
           </Balancer>
