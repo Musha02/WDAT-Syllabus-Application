@@ -16,7 +16,7 @@ export default function Setup() {
             <br></br>           
             <p className="text-xl text-neutral-400 md:text-xl">
                 Setting up Stripe payments in a Next.js 14 application involves several steps:  <br></br>
-                1. Create a Stripe Account: If you haven't already, <br></br> sign up for a Stripe account at <Link href = "https://stripe.com/"> <b>Here</b></Link><br></br>
+                1. Create a Stripe Account: If you haven&#39;t already, <br></br> sign up for a Stripe account at <Link href = "https://stripe.com/"> <b>Here</b></Link><br></br>
                 2. Install Stripe SDK: <br></br>
                 3. Get Stripe API Keys: <br></br>
                 4. Initialize Stripe <br></br>
