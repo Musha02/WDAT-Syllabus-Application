@@ -23,7 +23,7 @@ export default function Introduction() {
             <Image src = {Image2} alt="Image 2" className="w-full h-full object-cover border border-black border-2 rounded-3xl" />
           </Link>
 
-          <Link href = "/integration" >
+          <Link href = "/auth0-integration" >
             <Image src = {Image3} alt="Image 3" className="w-full h-full  border border-black border-2 rounded-3xl" />
           </Link>
 
