@@ -10,9 +10,7 @@ export default function Introduction() {
   return (
     <div className=" h-full w-full">
       <Navbar />
-      <section className="mx-auto flex max-w-7xl ">
-        
-          
+      <section className="mx-auto flex max-w-7xl  flex-col-reverse gap-2  px-4  pb-12 transition-all md:flex-row md:gap-4">
 
           {/* Image grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
