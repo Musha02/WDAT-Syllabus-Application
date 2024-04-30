@@ -34,7 +34,7 @@ const navItems: NavItem[] = [
       },
       {
         label: "Auth0 Integration",
-        link: "/integration"
+        link: "/auth0-integration"
         
       },
       {
