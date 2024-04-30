@@ -11,7 +11,7 @@ export default function NextJs() {
       <Navbar />
       <section className="mx-auto flex max-w-7xl  flex-col-reverse gap-2  mt-[-100px] px-4  pb-12 transition-all md:flex-row md:gap-4">
         {/* left div */}
-        <div className=" flex flex-col items-center  gap-6 pt-2 text-center md:w-1/2 md:items-start md:gap-10 md:pt-32 md:text-left">
+        <div className=" flex flex-col items-center  gap-6 pt-2 md:w-1/2 md:items-start md:gap-10 md:pt-32 md:text-left">
           <Balancer>
             <h1 className="text-xl font-semibold md:text-5xl">
             NextJs 14 Fundamentals
