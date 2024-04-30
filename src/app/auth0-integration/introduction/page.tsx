@@ -8,7 +8,7 @@ export default function Introduction() {
       <Navbar />
       <section className="mx-auto flex max-w-7xl  flex-col-reverse gap-2  mt-[-100px] px-4  pb-12 transition-all md:flex-row md:gap-4">
         {/* left div */}
-        <div className=" flex flex-col items-center  gap-6 pt-2 text-center md:w-1/2 md:items-start md:gap-10 md:pt-32 md:text-left">
+        <div className=" flex flex-col items-center  gap-6 pt-2 md:w-1/2 md:items-start md:gap-10 md:pt-32 md:text-left">
           <Balancer>
             <h1 className="text-xl font-semibold md:text-4xl">
               1. Introduction
@@ -31,6 +31,7 @@ export default function Introduction() {
             <Link href="/auth0-integration/integration" className="border-black w-fit rounded-xl border-2 bg-black px-4 py-2 text-white transition-all hover:border-black hover:bg-black hover:bg-transparent hover:text-black/90">
               Next Page
             </Link>
+            
           </div>
           
           </div>
