@@ -40,7 +40,7 @@ export default function NextJs() {
             alt="next-image"
           />
           <Image
-            className="h-auto w-full  md:hidden"
+            className="h-auto w-full rounded-3xl mt-10 md:hidden "
             src={Next}
             alt="next-image"
           />
