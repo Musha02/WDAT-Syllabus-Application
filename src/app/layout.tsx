@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Epilogue } from "next/font/google";
 import "./globals.css";
+import { UserProvider } from '@auth0/nextjs-auth0/client';
 
 const epilogue = Epilogue({ subsets: ["latin"] });
 
@@ -16,13 +17,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body
-        className={` ${epilogue.className}  ${
-          process.env.NODE_ENV == "development" ? "debug-screens" : ""
-        }`}
-      >
-        {children}
-      </body>
+      <UserProvider>
+        <body
+          className={` ${epilogue.className}  ${
+            process.env.NODE_ENV == "development" ? "debug-screens" : ""
+          }`}
+        >
+          {children}
+        </body>
+      </UserProvider>
     </html>
   );
 }
