@@ -19,7 +19,7 @@ export default function StripePayments() {
             <h2 className=" text-neutral-400 md:max-w-[700px] md:text-2xl hover:text-black/90">2. <Link href="/stripepayments/setup">How To Setup Stripe Payments in NextJS 14</Link></h2>
            </Balancer>
            <div className="flex justify-center mt-4">         
-              <Link href="https://docs.stripe.com/payments?payments=popular" className="border-black w-fit rounded-xl border-2 bg-black px-4 py-2 text-white transition-all hover:border-black hover:bg-black hover:bg-transparent hover:text-black/90">
+              <Link href="https://docs.stripe.com/payments?payments=popular" target="_blank" className="border-black w-fit rounded-xl border-2 bg-black px-4 py-2 text-white transition-all hover:border-black hover:bg-black hover:bg-transparent hover:text-black/90">
                 Learn more
               </Link>        
             </div>

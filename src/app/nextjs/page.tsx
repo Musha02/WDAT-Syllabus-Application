@@ -28,7 +28,7 @@ export default function NextJs() {
             <h2 className=" text-neutral-400 md:max-w-[700px] md:text-2xl hover:text-black/90">8. <Link href="/nextjs/optimizing">Optimizing</Link></h2>
             <h2 className=" text-neutral-400 md:max-w-[700px] md:text-2xl hover:text-black/90">9. <Link href="/nextjs/testing">Testing</Link></h2>
           </Balancer>
-          <Link href= "https://nextjs.org/docs"  className="border-black w-fit rounded-xl border-2 bg-black px-4 py-2 text-white transition-all hover:border-black hover:bg-black hover:bg-transparent hover:text-black/90 mr-4">
+          <Link href= "https://nextjs.org/docs" target="_blank" className="border-black w-fit rounded-xl border-2 bg-black px-4 py-2 text-white transition-all hover:border-black hover:bg-black hover:bg-transparent hover:text-black/90 mr-4">
              Learn more
           </Link>
           

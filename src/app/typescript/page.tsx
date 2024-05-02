@@ -23,7 +23,7 @@ export default function NextJs() {
             <h2 className=" text-neutral-400 md:max-w-[700px] md:text-2xl hover:text-black/90">6. <Link href="/typescript/functions">Typescript Functions</Link></h2>    
             <h2 className=" text-neutral-400 md:max-w-[700px] md:text-2xl hover:text-black/90">7. <Link href="/typescript/react-with-ts">React with Typescript</Link></h2>
             </Balancer>
-            <Link href="https://www.typescriptlang.org/docs/" className="border-balck  w-fit rounded-xl border-2 bg-black px-4 py-2  text-white transition-all hover:border-black hover:bg-black hover:bg-transparent  hover:text-black/90">
+            <Link href="https://www.typescriptlang.org/docs/" target="_blank" className="border-balck  w-fit rounded-xl border-2 bg-black px-4 py-2  text-white transition-all hover:border-black hover:bg-black hover:bg-transparent  hover:text-black/90">
               Learn more
             </Link>
           
