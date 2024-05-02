@@ -28,8 +28,8 @@ export default function Setup() {
           </Balancer>
           
           <div className="flex justify-center mt-4">
-          < Link href= "/"  className="border-black w-fit rounded-xl border-2 bg-black px-4 py-2 text-white transition-all hover:border-black hover:bg-black hover:bg-transparent hover:text-black/90 mr-4">
-             Home
+            <Link href= "/stripepayments"  className="border-black w-fit rounded-xl border-2 bg-black px-4 py-2 text-white transition-all hover:border-black hover:bg-black hover:bg-transparent hover:text-black/90 mr-4">
+              Contents Menu
             </Link>
             <Link href="/stripepayments/introduction" className="border-black w-fit rounded-xl border-2 bg-black px-4 py-2 text-white transition-all hover:border-black hover:bg-black hover:bg-transparent hover:text-black/90">
               Previous Page

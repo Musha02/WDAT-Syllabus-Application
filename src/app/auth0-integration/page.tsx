@@ -21,9 +21,7 @@ export default function Auth0Integration() {
            </Balancer>
             
             <div className="flex justify-center mt-4">
-              <Link href= "/"  className="border-black w-fit rounded-xl border-2 bg-black px-4 py-2 text-white transition-all hover:border-black hover:bg-black hover:bg-transparent hover:text-black/90 mr-4">
-                Home
-              </Link>
+              
               <Link href="https://auth0.com/docs/customize/integrations" className="border-black w-fit rounded-xl border-2 bg-black px-4 py-2 text-white transition-all hover:border-black hover:bg-black hover:bg-transparent hover:text-black/90">
                 Learn more
               </Link>        
